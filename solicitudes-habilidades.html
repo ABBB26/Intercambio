@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitudes de Habilidades - Plataforma de Intercambio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Plataforma de Intercambio</h1>
+        <nav>
+            <ul>
+                <li><a href="acerca_de.html">Acerca de</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="listado-habilidades.html">Listado de Habilidades</a></li>
+                <li><a href="Modelos_de_ingresos.html">Modelos de Ingresos</a></li>
+                <li><a href="solicitudes-habilidades.html">Solicitudes de Habilidades</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="skill-requests">
+            <h2>Solicitudes Actuales</h2>
+            <ul>
+                <li>
+                    <h3>Clases de Cocina</h3>
+                    <p>Busco a alguien que pueda enseñarme a cocinar platos italianos.</p>
+                    <p>Contacto: example@example.com</p>
+                </li>
+                <li>
+                    <h3>Reparación de Bicicletas</h3>
+                    <p>Necesito ayuda para arreglar una bicicleta de montaña.</p>
+                    <p>Contacto: another@example.com</p>
+                </li>
+                <!-- Agrega más solicitudes según sea necesario -->
+            </ul>
+        </section>
+
+        <section class="post-request">
+            <h2>Publicar una Solicitud</h2>
+            <form>
+                <label for="request">Nueva Solicitud:</label>
+                <textarea id="request" name="request" placeholder="Escribe tu solicitud aquí" required></textarea>
+                <label for="contact">Contacto:</label>
+                <input type="email" id="contact" name="contact" placeholder="Tu correo electrónico" required>
+                <button type="submit">Publicar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Plataforma de Intercambio</p>
+    </footer>
+</body>
+</html>
