@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos de Intercambio - Plataforma de Intercambio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Plataforma de Intercambio</h1>
+        <nav>
+            <ul>
+                <li><a href="acerca_de.html">Acerca de</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="listado-habilidades.html">Listado de Habilidades</a></li>
+                <li><a href="Modelos_de_ingresos.html">Modelos de Ingresos</a></li>
+                <li><a href="solicitudes-habilidades.html">Solicitudes de Habilidades</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="exchange-events">
+            <h2>Próximos Eventos</h2>
+            <div class="event">
+                <h3>Evento de Cocina Italiana</h3>
+                <p>¡Aprende a cocinar deliciosos platos italianos! Fecha: 15 de octubre, 2023.</p>
+            </div>
+            <div class="event">
+                <h3>Taller de Reparación de Bicicletas</h3>
+                <p>¡Aprende a arreglar tu bicicleta de montaña! Fecha: 20 de noviembre, 2023.</p>
+            </div>
+            <!-- Agrega más eventos según sea necesario -->
+        </section>
+
+        <section class="proposed-events">
+            <h2>Propón un Evento</h2>
+            <form>
+                <label for="event-name">Nombre del Evento:</label>
+                <input type="text" id="event-name" name="event-name" placeholder="Escribe el nombre del evento" required>
+                <label for="event-description">Descripción del Evento:</label>
+                <textarea id="event-description" name="event-description" placeholder="Describe el evento aquí" required></textarea>
+                <label for="event-date">Fecha del Evento:</label>
+                <input type="date" id="event-date" name="event-date" required>
+                <button type="submit">Proponer Evento</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Plataforma de Intercambio</p>
+    </footer>
+</body>
+</html>
